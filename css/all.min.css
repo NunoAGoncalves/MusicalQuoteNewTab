@@ -1,4 +1,5 @@
 body {
+  background-color: #000000;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -22,19 +23,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2em
 }
 
-layer {
-	z-index: 999;
-	background: linear-gradient(
-          rgba(0, 0, 0, 0.7), 
-          rgba(0, 0, 0, 0.7)
-        ),
-}
-
 #background {
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  filter: brightness(0.5);
 }
 
 #dashboard {
